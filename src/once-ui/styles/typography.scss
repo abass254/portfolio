@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+
 html {
     font-size:   var(--font-scaling-desktop);
     font-family: var(--font-family-body);
@@ -109,6 +112,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .font-body {
     font-family: var(--font-family-body);
+    //font-family: 'Satoshi', sans-serif;
 
     &.font-strong, & > .font-strong {
         font-weight: var(--font-weight-body-strong);

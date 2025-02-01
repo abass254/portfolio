@@ -52,11 +52,11 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Software Engineer Devops Engineer</>,
   subline: (
     <>
-      I'm Abass, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      Passionate full-stack developer specializing in scalable web solutions, seamlessly integrating modern front-end experiences with robust backend systems.
+   
     </>
   ),
 };
@@ -81,9 +81,11 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Abass is a Toronto-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Abass is a Toronto-based passionate and versatile web developer with a strong focus 
+        on building scalable, high-performance applications. With experience spanning both 
+        front-end and back-end development, I specialize in crafting modern solutions using 
+        cutting-edge frameworks and technologies. My work emphasizes efficiency, 
+        user experience, and long-term maintainability.
       </>
     ),
   },
@@ -92,17 +94,15 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Doli Law Corporation ",
+        timeframe: "06/2024 - Present",
+        role: "ERP Developer (Consultant.)",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Develop an ERP system to streamline client registry and case management processes, enhancing operational oversight.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Deploy the ERP on AWS instances, managing clusters to optimize cost efficiency and system performance.
           </>,
         ],
         images: [
@@ -116,17 +116,33 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
+        company: "Tiberbu Healthnet Limited",
         timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        role: "Software Developer (Consultant)",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+          Contributed to the development of a Universal Healthcare Unit currently in use across Kenya.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+          Conducted training sessions for doctors and healthcare workers, ensuring effective use of the system
+          </>,
+          <>
+          Continually maintain and enhance the system with new features to meet evolving healthcare needs.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Konvergenz Network Solutions",
+        timeframe: "10/2017 - 08/2018",
+        role: "System Administrator",
+        achievements: [
+          <>
+          Contributed  to  the  design  and  deployment  of  the  organization’s  Active  Directory
+infrastructure
+          </>,
+          <>
+          Developed a streamlined system for the HR team, enabling them to add users through a portal that automatically integrates with Active Directory, eliminating the need for direct AD access. This innovation simplified and accelerated the user onboarding process.
           </>,
         ],
         images: [],
@@ -138,12 +154,21 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University of Nairobi",
+        description: <>Mathematics and Computer Science.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Certified Oracle SQL Developer",
+        description: <>Certified from oracle</>,
+      },{
+        name: "Certified Azure Developer",
+        description: <>Certified from Microsoft</>,
+      },{
+        name: "AWS Cloud Practitioner",
+        description: <>Certified from Amazon</>,
+      },{
+        name: "AWS Solution Architect Associate",
+        description: <>Certified from Amazon</>,
       },
     ],
   },
